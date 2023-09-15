@@ -1,0 +1,69 @@
+
+{
+    "cars": [
+      
+      {
+        "Title": "Honda Civic",
+        "Price":"99 Lacs",
+        "Engine":"1.5 Turbo",
+        "Body":"Sedan",
+        "Fuel":"Petrol",
+        "Transmission":"Automatic",
+       
+              "imagePath":"/Images/c1.jpeg",
+        "id": 1
+
+      },
+      {
+        "Title": "Toyota Corolla",
+        "Price":"82 Lacs",
+        "Engine":"1.8 NA",
+        "Body":"Sedan",
+        "Fuel":"Petrol",
+        "Transmission":"Manual",
+        "imagePath": "/Images/Corolla.jpeg",
+        "id": 2
+      },
+      {
+        "Title": "Suzki Swift",
+        "Price":"68 Lacs",
+        "Engine":"1.3 NA",
+        "Body":"HatchBack",
+        "Fuel":"Petrol",
+        "Transmission":"Automatic",
+        "imagePath": "/Images/Swift.jpeg",
+        "id": 3
+      },
+      {
+        "Title": "Honda City",
+        "Price":"62 Lacs",
+        "Engine":"1.2 NA",
+        "Body":"Sedan",
+        "Fuel":"Petrol",
+        "Transmission":"Manual",
+        "imagePath": "/Images/City.jpeg",
+        "id": 4
+      },
+      {
+        "Title": "Toyota Yaris",
+        "Price":"63 Lacs",
+        "Engine":"1.3 NA",
+        "Body":"Sedan",
+        "Fuel":"Petrol",
+        "Transmission":"Automatic",
+        "imagePath": "/Images/Yaris.jpeg",
+        "id": 5
+      },
+      {
+        "Title": "MG HS-EV",
+        "Price":"99 Lacs",
+        "Engine":"16.6 kWh",
+        "Body":"SUV",
+        "Fuel":"Electric",
+        "Transmission":"Automatic",
+        "imagePath": "/Images/MG.jpeg",
+        "id": 6
+      }
+
+    ]
+  }

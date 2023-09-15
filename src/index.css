@@ -1,0 +1,523 @@
+
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  text-align: center;
+  color: whitesmoke;
+}
+* {
+  color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.Navbar {
+  align-items: Center;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  margin: 0px auto;
+  padding: 2px;
+  text-decoration: none;
+}
+.Navbar h2 {
+  color: black;
+  font-size: 24px;
+  margin-left: 10px;
+}
+.Links {
+  margin-left: auto;
+}
+nav a {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px;
+  margin: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+a.active {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.849);
+  border-radius: 29px;
+  width: 120px;
+  font-weight: 300;
+
+  padding: 8px 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-radius: 29px;
+  width: 120px;
+  padding: 8px 15px;
+  display: inline-block;
+
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+.Home {
+  color: black;
+  position: relative;
+}
+.Home img {
+  margin-top: 12px;
+
+  height: 530px;
+  /* border:1px solid green; */
+  width: 1110px;
+  margin-left: auto;
+  display: block;
+}
+.HomeT {
+  position: absolute;
+  top: 35%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+
+  padding: 10px; /* Add padding to the text */
+}
+.HomeT h2 {
+  font-size: 32px;
+}
+.HomeT button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 29px;
+  padding: 15px 72px;
+  opacity:0.9;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+.HomeT button:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+.New {
+  color: black;
+}
+.Container {
+  width:320px;
+  height: 355px;
+  
+}
+
+.card {
+  margin-left: 12px;
+  flex: 1;
+  margin-top: 15px;
+  width: auto;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 25px;
+  margin-bottom: 0px;
+}
+.card-inner {
+  border: 1.3px solid black;
+  border-radius: 25px;
+
+}
+.card-img-top {
+  height: 220px;
+  border-radius: 25px;
+  width: 423px;
+
+ 
+}
+.card-body {
+  color: white;
+  margin-top: 3px;
+  border-radius: 25px;
+  background-color: rgb(121, 118, 118);
+
+  margin-bottom: 0px;
+  text-align: left;
+  align-items: left;
+}
+.card-title {
+  color: black;
+  margin-top: 0px;
+  font-size: 22px;
+  text-align: left;
+  align-items: left;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  background-color: rgb(121, 118, 118);
+}
+.card-text {
+  margin-left: 30px;
+  color: black;
+  font-size:15.5px;
+  background-color: rgb(121, 118, 118);
+  margin-top: 0px;
+}
+.card-body button {
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  border-radius: 29px;
+  padding: 5px 19px;
+  border: 1px solid black;
+  opacity:0.9;
+  margin-left: 23px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  
+}
+.card-body button:hover {
+  background-color: white;
+  color: black;
+
+  font-weight: 500;
+  border: 1px solid black;
+}
+.Detail {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: flex-start;
+}
+.Loading {
+  font-size: 40px;
+  font-weight: 800;
+}
+.Contact {
+  margin-top: 0px;
+  display: flex;
+  position: relative;
+
+  flex-direction: column;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 660px;
+  width: 100%;
+  height: 70vh;
+  color:black;
+  box-sizing: border-box;
+}
+.Contact h2 {
+  font-size: 40px;
+}
+
+.Contact .form {
+  width: 340px;
+  height: 450px;
+  opacity: 0.9; 
+position: absolute;
+top: 15%; /* Push the form down by 50% of its height */
+  left: 1%;
+  background: rgb(121, 118, 118);
+  border-radius: 8px;
+  box-shadow: 0 0 2px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  color:black;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.Contact h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color:black;
+  border-bottom: 3px solid #000000;
+}
+.Contact img {
+  max-width: 85%; 
+  width:90%;
+  height:500px;
+
+  position: absolute; 
+  box-shadow: 0 0 2px -10px #000;
+  margin-top:28px;
+  margin-left: 110px;
+  top: 0; 
+  left: 0; 
+  z-index: -1; 
+  
+}
+.Contact input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+font-weight: 800;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #000000;
+}
+.Contact input:focus {
+  border-bottom: 2px solid #000000;
+}
+.Contact p
+{
+  color:black;
+}
+.Contact p:before {
+  content: attr(type);
+  display: block;
+  color:black;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #000000;
+}
+.Contact button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #000000;
+  background: 0;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.Contact button:hover {
+  background: #fcfcfc;
+  color: #000000;
+}
+/* .Contact div {
+  content: "Hi";
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+
+  background: #50505a;
+  color:black;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000;
+} */
+/* .Contact span {
+  margin: 0 5px 0 15px;
+} */
+.Login img
+{
+
+    max-width: 100%; 
+    width:100%;
+    height:100%;
+    position: absolute; 
+    box-shadow: 0 0 2px -10px #000;
+    margin-top:28px;
+
+    top: 0; 
+    left: 0; 
+    z-index: -1; 
+    
+}
+.Login form
+{
+  margin-top: 70px;
+  width:440px;
+  border-radius: 21px;
+  height:398px;
+  background-color: rgba(255, 255, 255, 0.952);
+  box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.5);
+
+}
+.Login
+{
+  box-shadow: 0 0 2px -10px #000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.Login input
+{
+  width: 93%;
+  margin-left: 15px;
+  padding:15px 10px;
+
+  border:1px solid #d8d3d3;
+  box-sizing: border-box;
+  display:block;
+}
+.Login h2
+{
+  text-align: left;
+  margin-left: 18px;
+  margin-top:60px;
+}
+.Login h3
+{
+  font-size:23px;
+  text-align: left;
+  margin-left: 18px;
+  margin-top:40px;
+}
+.Login button
+{
+  margin-top: 25px;
+  background:rgb(0, 0, 0);
+  color:#fff;
+  width:100%;
+  font-size: 20px;
+  border:0;
+  padding:12px;
+  border-radius:2px 2px 12px 12px;
+  cursor :pointer;
+}
+.Login button:hover
+{
+ 
+  background:rgb(49, 49, 49);
+}
+.View
+{
+ 
+  display: flex;
+
+  
+}
+.View .Heading
+{
+  position: absolute; 
+  top:12%;
+  border-bottom: 3px solid rgb(87, 86, 86);
+  left:26%;
+}
+.View .Heading h2
+{
+  /* border-bottom: 3px solid rgb(87, 86, 86);
+  margin:20px; */
+}
+.image-container {
+  position: absolute; 
+  width: 780px; 
+  
+  height: 410px; 
+  top:30%;
+  left:3%;
+  overflow: hidden;
+}
+.img-view
+{  position: relative; 
+
+
+  max-width: 100%; 
+  max-height: 100%;
+  display: block;
+  width: auto; 
+  height: auto; 
+  /* top:25%;
+  left:4%; */
+  /* overflow-x: hidden; */
+}
+.View .list
+{
+  position: absolute;
+  top:11%;
+text-align: left;
+  left:68%;
+}
+.list {
+  margin-top: 20px; 
+  margin-left:0px;
+  font-size: 17px;
+}
+
+.list h2 {
+  margin-bottom: 25px; 
+  font-size: 33px;
+  border-bottom: 3px solid rgb(87, 86, 86);
+ 
+}
+
+.list b {
+  font-size: 22px;
+  margin-right: 11px; 
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+.View button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 29px;
+  padding: 15px 72px;
+ width:265px;
+
+margin-top: 30px;
+margin-left: 17px;
+  cursor: pointer;
+}
+.View button:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+.Heading h2
+{
+  font-size:33px;
+}
+.Sell
+{
+  /* display: flex;
+  /* flex-direction: column; */
+  /* justify-items:space-between;
+  align-items:center;
+  text-align:left; */ 
+  display: flex;
+  justify-content: space-between;
+  width: 600px; /* Adjust the width as needed */
+  margin: 0 auto;
+ 
+}
+form{
+  border:2px solid red;
+  height:100%;
+ 
+  width:100%;
+}
+form h2
+{
+  font-size:19px;
+  margin-left:26px;
+}
+form input {
+  margin-left:26px;
+  height:23px;
+  width:190px;
+}
+.Sell form
+{
+  position:absolute;
+  margin-top: 70px;
+  width:654px;
+  border-radius: 21px;
+  height:480px;
+  background-color: rgba(255, 255, 255, 0.952);
+  box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.5);
+
+}
+.Sell .column
+{
+  width: 45%; 
+}

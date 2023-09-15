@@ -1,0 +1,22 @@
+{
+  "Contact": [
+    {
+      "name": "fahad",
+      "email": "fahad123@gmail.com",
+      "msg": "i am happy customer",
+      "id": 1
+    },
+    {
+      "name": "Fa",
+      "email": "Email",
+      "msg": "Message",
+      "id": 2
+    },
+    {
+      "name": "Cyrus",
+      "email": "cyrus@gmai.com",
+      "msg": "Hello i am aCyrus",
+      "id": 3
+    }
+  ]
+}

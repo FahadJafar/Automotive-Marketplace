@@ -1,3 +1,19 @@
+# Car Buying and Selling Project
+
+This project is a platform for buying and selling cars, built using React. It incorporates various features including the utilization of a local JSON server to manage data, user authentication with Redux, and several other functionalities.
+## Features
+- Provides a platform for users to buy and sell cars.
+- Incorporates a local JSON server to maintain data.
+- Implements user authentication using Redux.
+- Utilizes React for building the frontend interface.
+
+## Technologies Used
+- React
+- Redux
+- Local JSON Server
+- React Router
+- Tailwind CSS
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

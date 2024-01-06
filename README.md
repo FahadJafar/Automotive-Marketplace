@@ -1,4 +1,4 @@
-# Car Buying and Selling Project
+# Automotive Marketplace Project
 
 This project is a platform for buying and selling cars, built using React. It incorporates various features including the utilization of a local JSON server to manage data, user authentication with Redux, and several other functionalities.
 ## Features
